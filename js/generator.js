@@ -197,7 +197,7 @@
             if(!is_first_run){
                 return;
             }
-
+            is_first_run = false;
             $("#code-section").show();
             $("#video-section").show();
             $(".social-share").show();
