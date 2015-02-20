@@ -78,9 +78,13 @@ nav .brand-logo{
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-.plusButton{
+.input-field label.active, label{
+    font-size: .95rem;
+    font-weight: 400;
+}
+.plusone-wrap{
     display: inline-block;
 }
-.plusButton div{
-    vertical-align: middle !important;
+.plusone-wrap > div{
+    vertical-align: bottom !important;
 }
