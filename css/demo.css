@@ -48,29 +48,34 @@ nav .brand-logo{
 }
 
 /*Button*/
-@-webkit-keyframes rubberBandEffect {
-    0%, 100% { -webkit-transform: scale(1); }
-    30% { -webkit-transform: scaleX(1.25) scaleY(0.75); }
-    40% { -webkit-transform: scaleX(0.75) scaleY(1.25); }
-    60% { -webkit-transform: scaleX(1.15) scaleY(0.85); }
+@-webkit-keyframes heartbeat {
+    0%, 30%, 50%, 80% {
+        -webkit-transform: scale(1);
+    }
+    50%, 70% {
+        -webkit-transform: scale(1.1);
+    }
+    40%, 60% {
+        -webkit-transform: scale(1.2);
+    }
 }
 
-@keyframes rubberBandEffect {
-    0%, 100% { transform: scale(1); }
-    30% { transform: scaleX(1.25) scaleY(0.75); }
-    40% { transform: scaleX(0.75) scaleY(1.25); }
-    60% { transform: scaleX(1.15) scaleY(0.85); }
+@keyframes heartbeat {
+    0%, 30%, 50%, 80% { transform: scale(1); }
+    50%, 70% { transform: scale(1.1); }
+    40%, 60% { transform: scale(1.2); }
 }
 
-.rubberBandAnimate {
-    -webkit-animation-name: rubberBandEffect;
-    animation-name: rubberBandEffect;
+.demoAnimate.heartbeat{
+    -webkit-animation-name: heartbeat;
+    animation-name: heartbeat;
 }
-.infiniteAnimate{
+
+.demoAnimate.infinite{
     -webkit-animation-iteration-count : infinite;
     animation-iteration-count : infinite;
 }
-.animateEl{
+.demoAnimate{
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-timing-function: ease-in-out;
