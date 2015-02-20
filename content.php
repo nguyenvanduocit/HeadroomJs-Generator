@@ -172,7 +172,8 @@
     </div>
 </main>
 <div id="social_modal" class="modal">
-    <div class="modal-content center">
+    <div class="modal-content center section">
+        <h2 class="header">Do you like this?</h2>
         <div class="social-share">
             <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
             <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
