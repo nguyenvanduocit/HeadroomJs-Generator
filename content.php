@@ -11,7 +11,7 @@
 <nav id="header" class="teal lighten-1 animated">
     <div class="nav-wrapper">
         <div class="col s12">
-            <a style="margin-left: 50px" href="/" class="brand-logo">SEN VIỆT</a>
+            <a style="margin-left: 50px" href="http://laptrinh.senviet.org" class="brand-logo">SEN VIỆT</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="http://wordpresskite.com">WordPress Dev</i></a></li>
                 <li><a href="http://laptrinh.senviet.org">Dev tut</a></li>

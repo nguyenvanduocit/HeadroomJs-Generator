@@ -16,7 +16,8 @@
         var css_content = '';
         var animate_in = {};
         var animate_out = {};
-        var is_first_run = true;
+        var run_count = 0;
+
         request_css("css/animate_in.css", function(){
             process_css(animate_in, fill_effect_in);
         });
@@ -88,6 +89,10 @@
                 headroom.init();
             });
             show_lazy_section();
+            run_count++;
+            if(run_count == 3){
+
+            }
             toast('Success ! Try scroll up and down.', 3000);
         });
         $feature_aminate_sets.click(function(event){
@@ -194,10 +199,9 @@
             return css;
         }
         function show_lazy_section(){
-            if(!is_first_run){
+            if(run_count > 0){
                 return;
             }
-            is_first_run = false;
             $("#code-section").show();
             $("#video-section").show();
             $(".social-share").show();
