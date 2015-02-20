@@ -23,7 +23,7 @@
     <meta property="og:site_name" content="HeadroomJs Animate Generator"/>
     <meta property="article:author" content="https://www.facebook.com/chucbengungon" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/img/image.png" />
+    <meta property="og:image:url" content="/img/image.png" />
     <!--  Android 5 Chrome Color-->
     <meta name="theme-color" content="#EE6E73">
     <!-- CSS-->
