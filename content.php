@@ -41,8 +41,8 @@
     <div class="container main-content section ">
         <div class="row">
             <div class="col s8">
-                <p>Modify the fields in the form below, click on "<strong>RUN</strong>" button, then scroll up and down to see the animation.</p>
-                <p>You can also click on "<strong>Random Effect</strong>" to generate and apply a random animate.</p>
+                <p>Modify the fields in the form below, click on "<strong class="teal-text text-lighten-1">RUN DEMO</strong>" button, then scroll up and down to see the animation.</p>
+                <p>You can also click on "<strong class="deep-orange-text">RANDOM ANIMATE</strong>" to generate and apply a random animate.</p>
                 <p>In the right side, I suggest you some awesome fresh animate for you site. Just click on the list-item to try.</p></div>
             <div class="col s4 center">
                 <p><strong>If you love this, feel free to send me a coffee. Thanks !</strong></p>
@@ -111,9 +111,9 @@
                 <div class="row">
                     <div class="col s12">
                         <ul class="tabs">
-                            <li class="tab col s3"><a class="active" href="#tab_html">HTML</a></li>
-                            <li class="tab col s3"><a href="#tab_javascript">Javascript</a></li>
-                            <li class="tab col s3"><a href="#tab_css">CSS</a></li>
+                            <li class="tab col s4"><a class="active" href="#tab_html">HTML</a></li>
+                            <li class="tab col s4"><a href="#tab_javascript">Javascript</a></li>
+                            <li class="tab col s4"><a href="#tab_css">CSS</a></li>
                         </ul>
                     </div>
                     <div id="tab_html" class="col s12">
