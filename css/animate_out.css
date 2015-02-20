@@ -900,8 +900,8 @@
     animation-name: rotateLeft;
 }
 /*rotateLeft*/
-/*rotateRight*/
-@-webkit-keyframes rotateRight {
+/*rotateOutRight*/
+@-webkit-keyframes rotateOutRight {
     0% {
         opacity: 1;
         -webkit-transform-origin: 0 0;
@@ -914,7 +914,7 @@
         -webkit-transform: perspective(800px) rotateY(-180deg) translateZ(550px);
     }
 }
-@keyframes rotateRight {
+@keyframes rotateOutRight {
     0% {
         opacity: 1;
         transform-origin: 0 0;
@@ -927,13 +927,13 @@
         transform: perspective(800px) rotateY(-180deg) translateZ(550px);
     }
 }
-.rotateRight {
+.rotateOutRight {
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
-    -webkit-animation-name: rotateRight;
-    animation-name: rotateRight;
+    -webkit-animation-name: rotateOutRight;
+    animation-name: rotateOutRight;
 }
-/*rotateRight*/
+/*rotateOutRight*/
 /*foolishOut*/
 .foolishOut {
     -webkit-animation-name: foolishOut;

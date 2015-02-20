@@ -15,9 +15,8 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="http://wordpresskite.com">WordPress Dev</i></a></li>
                 <li><a href="http://laptrinh.senviet.org">Dev tut</a></li>
-                <li><a href="javascript.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-                <li><a href="mobile.html"><i class="mdi-navigation-more-vert"></i></a></li>
+                <li><a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt">Youtube</a></li>
+                <li><a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt"><i class="mdi-navigation-more-vert"></i></a></li>
             </ul>
         </div>
     </div>
@@ -46,41 +45,39 @@
                 <div class="col s6">
                     <div class="row">
                         <h3 class="header">Custom your animate</h3>
-                        <div class="col s12">
+                        <form id="demo_form">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="offset" type="number" class="demo_field" min="0" value="100">
+                                    <label for="offset">Offset</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6 " >
+                                    <input id="toleranceUp" type="number" class="demo_field tooltipped" min="0" value="10" data-position="top" data-tooltip="Scroll-up tolerance in px before state changes">
+                                    <label for="toleranceUp">Tolerance Up</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="toleranceDown" type="number" class="demo_field tooltipped" min="0" value="10" data-position="top" data-tooltip="Scroll-down tolerance in px before state changes">
+                                    <label for="toleranceDown">Tolerance Down</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <label>Scroll-up effect</label>
+                                    <select id="upEffect" name="upEffect" class="demo_field browser-default tooltipped" data-position="top" data-tooltip="The animatie when scroll-up">
+                                    </select>
+                                </div>
+                                <div class="col s6">
+                                    <label>Scroll-down effect</label>
+                                    <select id="downEffect" name="downEffect" class="demo_field browser-default tooltipped" data-position="top" data-tooltip="The animatie when scroll-down">
+                                    </select>
+                                </div>
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Run<i class="mdi-navigation-chevron-right right"></i></button>
                             <button  class="btn waves-effect waves-light tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random effect<i class="mdi-image-blur-on right"></i></button>
-                        </div>
+                        </form>
                     </div>
-                    <form id="demo_form">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="offset" type="number" class="demo_field" min="0" value="100">
-                                <label for="offset">Offset</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s6 " >
-                                <input id="toleranceUp" type="number" class="demo_field tooltipped" min="0" value="10" data-position="top" data-tooltip="Scroll-up tolerance in px before state changes">
-                                <label for="toleranceUp">Tolerance Up</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="toleranceDown" type="number" class="demo_field tooltipped" min="0" value="10" data-position="top" data-tooltip="Scroll-down tolerance in px before state changes">
-                                <label for="toleranceDown">Tolerance Down</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col s6">
-                                <label>Scroll-up effect</label>
-                                <select id="upEffect" name="upEffect" class="demo_field browser-default tooltipped" data-position="top" data-tooltip="The animatie when scroll-up">
-                                </select>
-                            </div>
-                            <div class="col s6">
-                                <label>Scroll-down effect</label>
-                                <select id="downEffect" name="downEffect" class="demo_field browser-default tooltipped" data-position="top" data-tooltip="The animatie when scroll-down">
-                                </select>
-                            </div>
-                        </div>
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Run<i class="mdi-navigation-chevron-right right"></i></button>
-                    </form>
                 </div>
                 <div class="col s6">
                     <h3 class="header">Featured animatie set</h3>
