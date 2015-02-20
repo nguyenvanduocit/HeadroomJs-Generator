@@ -10,7 +10,7 @@ The animate was in animate_in.css ( Animate on Scroll-up ) and animate_out.css (
 The animate was wrap by ```/*rotateOutRight*/```
 
 ## Example
-```
+```css
 /*rotateOutRight*/
 @-webkit-keyframes rotateOutRight {
     0% {
