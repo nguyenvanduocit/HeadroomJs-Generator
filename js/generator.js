@@ -74,8 +74,11 @@
                 '    animation-fill-mode: both;\n' +
                 '    transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);\n}\n';
             $(".css-code").html("&lt;style&gt;\n" +default_css+ css + "\n&lt;/style&gt;");
-            $(".js-code").html("&lt;script&gt;\nslkdjfsldkfj\n&lt;/script&gt;");
             $("#animation_style").html(css);
+
+            var js = get_js(offset, toleranceUp, toleranceDown, upEffect, downEffect);
+            $(".js-code").html("&lt;script&gt;\n"+js+"\n&lt;/script&gt;");
+
             Prism.highlightAll();
             if(headroom!=null){
                 headroom.destroy();
@@ -95,7 +98,6 @@
                 // you can get the value like this: myObject[propertyName]
             }
             $upEffect.html(options);
-            //$upEffect.material_select();
         };
         function fill_effect_out(){
             var $downEffect = $("#downEffect");
@@ -106,7 +108,6 @@
                 // you can get the value like this: myObject[propertyName]
             }
             $downEffect.html(options);
-            //$downEffect.material_select();
         }
         // css file : /*property_name:*/ .... /*:property_name*/
         function request_css(file_path,callback){
@@ -144,6 +145,26 @@
             if(typeof(callback) == "function") {
                 callback();
             }
+        }
+        function get_js(offset, up, down, pinned,unpinned ){
+            var js = '$("#header").headroom({\n' +
+                '   // vertical offset in px before element is first unpinned\n' +
+                '   offset : ' + offset + ',\n' +
+                '   // or you can specify tolerance individually for up/down scroll\n' +
+                '   tolerance : {\n' +
+                '       up : ' + up + ',\n' +
+                '       down : ' + down + '\n' +
+                '   },' +
+                '   classes : {' +
+                '       // when element is initialised\n' +
+                '       initial : "animated",\n' +
+            '           // when scrolling up\n' +
+                '       pinned : "' + pinned + '",\n' +
+                '       // when scrolling down\n' +
+                '       unpinned : "' + unpinned + '",\n' +
+                '   }\n' +
+                '});';
+            return js;
         }
         function get_css(animate_arr, property){
             var css = "";
