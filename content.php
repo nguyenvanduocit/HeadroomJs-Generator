@@ -33,14 +33,16 @@
         <div class="github-commit">
             <div class="container">
                 <div class="commit"><span>Latest Commit on Github:&nbsp;&nbsp;<a href="" class="sha"></a>&nbsp;&nbsp;<span class="date"></span></span>
-                    <a href="https://github.com/nguyenvanduocit/HeadroomJs-Generator" class="right waves-effect waves-light btn hide-on-small-only">Source code</a>&nbsp;&nbsp;<a href="https://github.com/nguyenvanduocit/HeadroomJs-Generator" class="right waves-effect waves-light btn hide-on-small-only" style="margin-right: 10px;">Bài viết</a>
+                    <a id="github-button" href="https://github.com/nguyenvanduocit/HeadroomJs-Generator" class="btn-flat right grey-text text-lighten-5 waves-effect waves-light hide-on-small-only">Github</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container main-content section ">
         <div class="row">
-            <p>Modify the form below, then click run to see live action. If you like this, copy the script to your site.</p><br/>
+            <p>Modify the fields in the form below, click on "RUN" button, then scroll up and down to see the animation.</p>
+            <p>You can also click on "Random Effect" to generate and apply a random animate.</p>
+            <p>In the right side, I suggest you some awesome fresh animate for you site. Just click on the list-item to try.</p>
             <div class="row">
                 <div class="col s6">
                     <div class="row">
@@ -74,8 +76,10 @@
                                     </select>
                                 </div>
                             </div>
-                            <button class="btn waves-effect waves-light" type="submit" name="action">Run<i class="mdi-navigation-chevron-right right"></i></button>
-                            <button  class="btn waves-effect waves-light tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random effect<i class="mdi-image-blur-on right"></i></button>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Run</button>
+                            <button  class="btn waves-effect waves-light deep-orange tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random animate</button>
+                            <div class="fb-like" data-href="https://www.facebook.com/senviet.laptrinh" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                            <div class="plusButton"><div class="g-plusone"></div></div>
                         </form>
                     </div>
                 </div>
