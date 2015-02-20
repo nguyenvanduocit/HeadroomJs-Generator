@@ -24,7 +24,7 @@
 <main>
     <div class="section no-pad-bot" id="index-banner" style="padding-top: 87px">
         <div class="container">
-            <h1 class="header center">HeadroomJS Animate Generator</h1>
+            <h1 class="header center" style="margin: 41px 0 0">HeadroomJS Animate Generator</h1>
 
             <div class='row center'>
                 <h4 class="header col s12 light center">Create an awesome navigation bar.</h4>
