@@ -87,6 +87,7 @@
                 headroom = new Headroom(this, options);
                 headroom.init();
             });
+            show_lazy_section();
             toast('Success ! Try scroll up and down.', 2000);
         });
         $feature_aminate_sets.click(function(event){
@@ -191,6 +192,10 @@
                 css = animate_arr[property];
             }
             return css;
+        }
+        function show_lazy_section(){
+            $("#code-section").show();
+            $("#video-section").show();
         }
     }); // end of document ready
 })(jQuery); // end of jQuery name space

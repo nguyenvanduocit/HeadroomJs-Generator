@@ -24,10 +24,10 @@
 <main>
     <div class="section no-pad-bot" id="index-banner" style="padding-top: 87px">
         <div class="container">
-            <h1 class="header center">HeadroomJS Effect Generator</h1>
+            <h1 class="header center">HeadroomJS Animate Generator</h1>
 
             <div class='row center'>
-                <h4 class="header col s12 light center">The animate generator for for HeadroomJS.</h4>
+                <h4 class="header col s12 light center">Create an awesome navigation bar.</h4>
             </div>
         </div>
         <div class="github-commit">
@@ -84,7 +84,7 @@
                             </select>
                         </div>
                     </div>
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Run</button>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Run demo</button>
                     <button  class="btn waves-effect waves-light deep-orange tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random animate</button>
                 </form>
                 <div class="social-share">
@@ -106,7 +106,7 @@
             </div>
         </div>
         <div class="clearfix"></div>
-        <div class="row">
+        <div id="code-section" class="row" style="display: none">
             <div class="col s12">
                 <div class="row">
                     <div class="col s12">
@@ -154,7 +154,7 @@
             </div>
         </div>
     </div>
-    <div class="row youtube-section teal section ">
+    <div id="video-section" class="row youtube-section teal section" style="display: none">
         <div class="col s12 m12">
             <div class="row center">
                 <h3 class="light header light">VIDEO MỚI NHẤT</h3>
