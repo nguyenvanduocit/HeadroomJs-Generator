@@ -88,11 +88,6 @@
                     <button class="btn waves-effect waves-light" type="submit" name="action">Run demo</button>
                     <button  class="btn waves-effect waves-light deep-orange tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random animate</button>
                 </form>
-                <div class="social-share" style="display:none;">
-                    <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                    <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
-                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
-                </div>
             </div>
             <div id="feature_section" class="col s4" style="display: none">
                 <h4 class="blue-grey-text light" style="margin-top: 34px; margin-bottom: 2rem;">Featured animates</h4>
@@ -102,7 +97,6 @@
                     <a class="collection-item featured_effect" data-upeffect="fadeInDown" data-downeffect="fadeOutUp" href="#">fadeInDown - fadeOutUp</a>
                     <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="flipOutTopBack" href="#">boingInUp - flipOutTopBack</a>
                     <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="fadeOutUp" href="#">boingInUp - fadeOutUp</a>
-                    <a class="collection-item featured_effect" data-upeffect="rubberBand" data-downeffect="fadeOutUp" href="#">rubberBand - fadeOutUp</a>
                 </div>
             </div>
         </div>
@@ -111,7 +105,12 @@
             <div class="col s12">
                 <div class="row">
                     <div class="col s12">
-                        <p>Use the codes below to apply the animations to your site</p>
+                        <div class="row">
+                            <div class="col s6">
+                                <h4 class="header">Get code</h4>
+                                <p><strong>Use the codes below to apply this animation to your navigation bar.</strong></p>
+                            </div>
+                        </div>
                         <ul class="tabs">
                             <li class="tab col s4"><a class="active" href="#tab_html">HTML</a></li>
                             <li class="tab col s4"><a href="#tab_javascript">Javascript</a></li>
@@ -172,3 +171,12 @@
         </div>
     </div>
 </main>
+<div id="social_modal" class="modal">
+    <div class="modal-content center">
+        <div class="social-share">
+            <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+            <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
+            <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
+        </div>
+    </div>
+</div>

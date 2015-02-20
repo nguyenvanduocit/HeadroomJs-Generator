@@ -91,7 +91,7 @@
             show_lazy_section();
             run_count++;
             if(run_count == 3){
-
+                $('#social_modal').openModal();
             }
             toast('Success ! Try scroll up and down.', 3000);
         });
@@ -204,7 +204,6 @@
             }
             $("#code-section").show();
             $("#video-section").show();
-            $(".social-share").show();
             $("#make_section").removeClass("s6 offset-s3 center");
             $("#make_section").addClass("s8");
             $("#feature_section").show();
