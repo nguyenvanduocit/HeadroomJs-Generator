@@ -13,6 +13,9 @@ pre[class*="language-"]:before{
 ul.side-nav.fixed li.logo{
     margin-top: 11px;
 }
+nav .brand-logo{
+    font-weight: 700;
+}
 #logo-container {
     color: #EE6E73;
     font-weight: 800;
@@ -42,4 +45,36 @@ ul.side-nav.fixed li.logo{
 @media only screen and (min-width : 601px) {
     .container {
         width: 95%; }
+}
+
+/*Button*/
+@-webkit-keyframes rubberBandEffect {
+    0%, 100% { -webkit-transform: scale(1); }
+    30% { -webkit-transform: scaleX(1.25) scaleY(0.75); }
+    40% { -webkit-transform: scaleX(0.75) scaleY(1.25); }
+    60% { -webkit-transform: scaleX(1.15) scaleY(0.85); }
+}
+
+@keyframes rubberBandEffect {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scaleX(1.25) scaleY(0.75); }
+    40% { transform: scaleX(0.75) scaleY(1.25); }
+    60% { transform: scaleX(1.15) scaleY(0.85); }
+}
+
+.rubberBandAnimate {
+    -webkit-animation-name: rubberBandEffect;
+    animation-name: rubberBandEffect;
+}
+.infiniteAnimate{
+    -webkit-animation-iteration-count : infinite;
+    animation-iteration-count : infinite;
+}
+.animateEl{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }

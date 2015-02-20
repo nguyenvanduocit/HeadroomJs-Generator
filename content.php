@@ -41,7 +41,7 @@
         <div class="row">
             <p>Modify the form below, then click run to see live action. If you like this, copy the script to your site.</p><br/>
             <div class="row">
-                <div class="col s8">
+                <div class="col s6">
                     <div class="row">
                         <div class="col s12">
                             <button  class="btn waves-effect waves-light tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random effect<i class="mdi-image-blur-on right"></i></button>
@@ -79,7 +79,7 @@
                         <button class="btn waves-effect waves-light" type="submit" name="action">Run<i class="mdi-navigation-chevron-right right"></i></button>
                     </form>
                 </div>
-                <div class="col s4">
+                <div class="col s6">
                     <div class="collection">
                         <a class="collection-item" href="https://raw.githubusercontent.com/WickyNilliams/headroom.js/v0.7.0/dist/headroom.min.js">headroom.min.js</a>
                     </div>
@@ -144,7 +144,7 @@
             </div>
             <div class="row center">
                 <a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt"
-                   class="btn-large waves-effect waves-light red darken-1">Subscribe</a>
+                   class="btn-large waves-effect waves-light red darken-1 rubberBandAnimate infiniteAnimate animateEl">Subscribe</a>
             </div>
             <div class="row" id="youtube-container"></div>
         </div>
