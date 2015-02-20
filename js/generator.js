@@ -10,8 +10,8 @@
         var $random_run = $("#random");
         var headroom = null;
         var $header = $("#header");
-        var $upEffect = $("#upEffect");
-        var $downEffect = $("#downEffect");
+        var $upEffectSelect = $("#upEffect");
+        var $downEffectSelect = $("#downEffect");
         var css_content = '';
         var animate_in = {};
         var animate_out = {};
@@ -28,13 +28,13 @@
 
             var keys = Object.keys(animate_in);
             var random_in_effect = keys[ keys.length * Math.random() << 0];
-            $upEffect.val(random_in_effect);
-            $upEffect.trigger('click');
+            $upEffectSelect.val(random_in_effect);
+            $upEffectSelect.trigger('click');
 
             keys = Object.keys(animate_out);
             var random_out_effect = keys[ keys.length * Math.random() << 0];
-            $downEffect.val(random_out_effect);
-            $downEffect.trigger('click');
+            $downEffectSelect.val(random_out_effect);
+            $downEffectSelect.trigger('click');
 
             $demo_field.trigger("submit");
         });
@@ -43,8 +43,8 @@
             var offset = $("#offset").val();
             var toleranceUp = $("#toleranceUp").val();
             var toleranceDown = $("#toleranceDown").val();
-            var upEffect = $upEffect.val();
-            var downEffect = $downEffect.val();
+            var upEffect = $upEffectSelect.val();
+            var downEffect = $downEffectSelect.val();
 
             var options = {
                 offset: offset,
