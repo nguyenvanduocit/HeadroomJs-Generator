@@ -9,7 +9,7 @@
             options = $.extend(defaults, options);
             var $container = $(this);
 
-            get_view_request(6);
+            get_view_request(3);
 
             function get_view_request(number) {
                 $.ajax({

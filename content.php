@@ -111,6 +111,7 @@
             <div class="col s12">
                 <div class="row">
                     <div class="col s12">
+                        <p>Use the codes below to apply the animations to your site</p>
                         <ul class="tabs">
                             <li class="tab col s4"><a class="active" href="#tab_html">HTML</a></li>
                             <li class="tab col s4"><a href="#tab_javascript">Javascript</a></li>
