@@ -1,13 +1,14 @@
 # HeadroomJs Animate Generator
-This code is write to generate animate ( in CSS3 ) for HeadroomJs.
+This project was written for automatically generate the animates for HeadroomJs.
 
 # Demo
 Demo on Heroku : [Demo](http://headroomjs.senviet.org/) 
 
 # Contribute
-The animate was in animate_in.css ( Animate on Scroll-up ) and animate_out.css ( Animate on Scroll-down ).
+The animate was store in animate_in.css ( scroll-up animate ), animate_out.css ( scroll-down animate ).
+Each Animate was wrap by ```/*rotateOutRight*/```.
 
-The animate was wrap by ```/*rotateOutRight*/```
+The DemoForm will detect the animate automatically.
 
 ## Example
 ```css
@@ -46,3 +47,10 @@ The animate was wrap by ```/*rotateOutRight*/```
 }
 /*rotateOutRight*/
 ```
+
+
+
+# License
+This project using resource from some open source project ( which was provided under MIT license), So, this project was provided under MIT license.
+
+For any request, please send me by the email address bellow : nvduoc@senviet.org.
