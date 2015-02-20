@@ -90,7 +90,7 @@
             });
             show_lazy_section();
             run_count++;
-            if(run_count == 3){
+            if( (run_count == 3) || (run_count == 10) ){
                 $('#social_modal').openModal();
             }
             toast('Success ! Try scroll up and down.', 3000);
