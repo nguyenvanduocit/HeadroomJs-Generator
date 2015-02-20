@@ -31,7 +31,7 @@
     <div class="footer-copyright">
         <div class="container">
             © 2015 Sen Việt, All rights reserved.
-            <a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
+            <a class="grey-text text-lighten-4 right" href="http://opensource.org/licenses/MIT">MIT License</a>
         </div>
     </div>
 </footer>

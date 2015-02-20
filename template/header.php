@@ -18,6 +18,9 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="template/images/favicon/mstile-144x144.png">
     <link rel="icon" href="template/images/favicon/favicon-32x32.png" sizes="32x32">
+    <meta property="og:title" content="<?php echo AppData::get_instance()->title ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
     <!--  Android 5 Chrome Color-->
     <meta name="theme-color" content="#EE6E73">
     <!-- CSS-->
@@ -30,10 +33,6 @@
     </script>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script>if (!window.jQuery) {
-            document.write('<script src="https://code.jquery.com/jquery-2.1.1.min.js"><\/script>');
-        }
-    </script>
     <script src="template/js/jquery.timeago.min.js"></script>
     <script src="template/js/prism.js"></script>
     <script src="template/js/materialize.js"></script>

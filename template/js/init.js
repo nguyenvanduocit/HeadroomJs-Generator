@@ -110,6 +110,7 @@
         $('.tab-demo').show().tabs();
         $('.parallax').parallax();
         $('.modal-trigger').leanModal();
+        $('.tooltipped').tooltip({delay: 50});
         if($('.scrollspy').length) {
             var $lastScrollspy = $('.scrollspy:last-child');
             var offsetBottom = $(window).height() - $lastScrollspy.offset().top - $lastScrollspy.height();

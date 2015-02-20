@@ -10,6 +10,16 @@ pre[class*="language-"]:before{
 .side-nav i{
     vertical-align: middle;
 }
+ul.side-nav.fixed li.logo{
+    margin-top: 11px;
+}
+#logo-container {
+    color: #EE6E73;
+    font-weight: 800;
+    height: 54px;
+    margin-bottom: 0;
+    font-size: 42px;
+}
 .youtube-section{
     padding-top: 20px;
     margin-bottom: -20px;

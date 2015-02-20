@@ -74,6 +74,7 @@
                 '    animation-fill-mode: both;\n' +
                 '    transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);\n}\n';
             $(".css-code").html("&lt;style&gt;\n" +default_css+ css + "\n&lt;/style&gt;");
+            $(".js-code").html("&lt;script&gt;\nslkdjfsldkfj\n&lt;/script&gt;");
             $("#animation_style").html(css);
             Prism.highlightAll();
             if(headroom!=null){
@@ -83,6 +84,7 @@
                 headroom = new Headroom(this, options);
                 headroom.init();
             });
+            toast('Success ! Try scroll up and down.', 2000);
         });
         function fill_effect_in(){
             var $upEffect = $("#upEffect");
@@ -93,7 +95,7 @@
                 // you can get the value like this: myObject[propertyName]
             }
             $upEffect.html(options);
-            $upEffect.material_select();
+            //$upEffect.material_select();
         };
         function fill_effect_out(){
             var $downEffect = $("#downEffect");
@@ -104,7 +106,7 @@
                 // you can get the value like this: myObject[propertyName]
             }
             $downEffect.html(options);
-            $downEffect.material_select();
+            //$downEffect.material_select();
         }
         // css file : /*property_name:*/ .... /*:property_name*/
         function request_css(file_path,callback){
