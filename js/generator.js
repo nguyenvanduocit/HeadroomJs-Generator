@@ -181,7 +181,7 @@
                 '           classes : {' +
                 '               // when element is initialised\n' +
                 '               initial : "animated",\n' +
-            '                   // when scrolling up\n' +
+                '               // when scrolling up\n' +
                 '               pinned : "' + pinned + '",\n' +
                 '               // when scrolling down\n' +
                 '               unpinned : "' + unpinned + '",\n' +
