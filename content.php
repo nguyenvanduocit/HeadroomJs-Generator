@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s7">
+            <div class="col s8">
                 <h3 class="header" style="margin: -0.54rem 0 2.168rem 0">Make your HeadroomJs</h3>
                 <form id="demo_form">
                     <div class="row">
@@ -93,8 +93,8 @@
                     <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
                 </div>
             </div>
-            <div class="col s5">
-                <h4 class="blue-grey-text light" style="margin:0 0 2.168rem 0">Featured animate sets</h4>
+            <div class="col s4">
+                <h4 class="blue-grey-text light" style="margin:0 0 2.168rem 0">Featured animates</h4>
                 <div class="collection">
                     <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
                     <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
