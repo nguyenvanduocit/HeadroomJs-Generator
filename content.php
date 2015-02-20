@@ -56,20 +56,18 @@
         </div>
         <div class="row">
             <div class="col s7">
-                <h3 class="header">Make your HeadroomJs</h3>
+                <h3 class="header" style="margin: -0.54rem 0 2.168rem 0">Make your HeadroomJs</h3>
                 <form id="demo_form">
                     <div class="row">
-                        <div class="input-field col s12">
+                        <div class="input-field col s4">
                             <input id="offset" type="number" class="demo_field" min="0" value="100">
                             <label for="offset">Offset</label>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s6 " >
+                        <div class="input-field col s4 " >
                             <input id="toleranceUp" type="number" class="demo_field tooltipped" min="0" value="20" data-position="top" data-tooltip="Scroll-up tolerance in px before state changes">
                             <label for="toleranceUp">Tolerance Up</label>
                         </div>
-                        <div class="input-field col s6">
+                        <div class="input-field col s4">
                             <input id="toleranceDown" type="number" class="demo_field tooltipped" min="0" value="20" data-position="top" data-tooltip="Scroll-down tolerance in px before state changes">
                             <label for="toleranceDown">Tolerance Down</label>
                         </div>
@@ -89,9 +87,14 @@
                     <button class="btn waves-effect waves-light" type="submit" name="action">Run</button>
                     <button  class="btn waves-effect waves-light deep-orange tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random animate</button>
                 </form>
+                <div class="social-share">
+                    <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                    <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
+                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
+                </div>
             </div>
             <div class="col s5">
-                <h4 class="blue-grey-text light" style="margin-top: 2rem">Featured animate sets</h4>
+                <h4 class="blue-grey-text light" style="margin:0 0 2.168rem 0">Featured animate sets</h4>
                 <div class="collection">
                     <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
                     <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
@@ -99,11 +102,6 @@
                     <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="flipOutTopBack" href="#">boingInUp - flipOutTopBack</a>
                     <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="fadeOutUp" href="#">boingInUp - fadeOutUp</a>
                     <a class="collection-item featured_effect" data-upeffect="rubberBand" data-downeffect="fadeOutUp" href="#">rubberBand - fadeOutUp</a>
-                </div>
-                <div class="social-share">
-                    <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                    <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
-                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
                 </div>
             </div>
         </div>
@@ -167,7 +165,7 @@
             </div>
             <div class="row" id="youtube-container"></div>
             <div class="row center">
-                <a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt" class="btn-large waves-effect waves-light red darken-1 heartbeat infinite demoAnimate">Subscribe</a>
+                <a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt" class="btn-large waves-effect waves-light red darken-1 heartbeat infinite demoAnimate">Xem thêm</a>
             </div>
         </div>
     </div>
