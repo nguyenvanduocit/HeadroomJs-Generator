@@ -23,16 +23,16 @@
 <main>
     <div class="section no-pad-bot" id="index-banner" style="padding-top: 87px">
         <div class="container">
-            <h1 class="header center">HeadroomJS Generator</h1>
+            <h1 class="header center">HeadroomJS Effect Generator</h1>
 
             <div class='row center'>
-                <h4 class="header col s12 light center">Auto-generate option for HeadroomJS.</h4>
+                <h4 class="header col s12 light center">The effect generator for for HeadroomJS.</h4>
             </div>
         </div>
         <div class="github-commit">
             <div class="container">
                 <div class="commit"><span>Latest Commit on Github:&nbsp;&nbsp;<a href="" class="sha"></a>&nbsp;&nbsp;<span class="date"></span></span>
-                    <a href="https://github.com/nguyenvanduocit/HeadroomJs-Example" class="right waves-effect waves-light btn hide-on-small-only">Source code</a>&nbsp;&nbsp;<a href="https://github.com/nguyenvanduocit/regexpBuilderJS-Example" class="right waves-effect waves-light btn hide-on-small-only" style="margin-right: 10px;">Bài viết</a>
+                    <a href="https://github.com/nguyenvanduocit/HeadroomJs-Generator" class="right waves-effect waves-light btn hide-on-small-only">Source code</a>&nbsp;&nbsp;<a href="https://github.com/nguyenvanduocit/HeadroomJs-Generator" class="right waves-effect waves-light btn hide-on-small-only" style="margin-right: 10px;">Bài viết</a>
                 </div>
             </div>
         </div>
@@ -101,10 +101,9 @@
 &lt;html&gt;
     &lt;head&gt;
         &lt;title&gt;HeadroomJs Example - laptrinh.senviet.org&lt;/title&gt;
-        &lt;script src=&quot;js/Debouncer.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;js/headroom.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js&quot;&gt;&lt;/script&gt;
         &lt;script src=&quot;https://code.jquery.com/jquery-2.1.1.min.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;js/jQuery.headroom.js&quot;&gt;&lt;/script&gt;</code></pre>
+        &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/jQuery.headroom.min.js&quot;&gt;&lt;/script&gt;</code></pre>
 <pre style="margin-bottom:0;margin-top:-.5em;padding-top: 0;padding-bottom: 0; border-bottom: none; border-top: none; padding-left: 80px !important;"><code class="language-markup css-code"></code></pre>
 <pre style="margin-bottom:-.5em;margin-top:0;padding-top: 0;padding-bottom: 0; border-bottom: none; border-top: none; padding-left: 80px !important;"><code class="language-markup js-code"></code></pre>
 <pre style="border-top: none"><code class="language-markup">    &lt;/head&gt;

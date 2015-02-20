@@ -1,9 +1,9 @@
 {
   "repository" : "nguyenvanduocit/HeadroomJs-Generator",
   "cs" : "http://laptrinh.senviet.org",
-  "title" : "HeadroomJs Generator",
-  "description" : "Headroom Generator help you to create HeadroomJs option quicker.",
-  "scripts":["js/Debouncer.js","js/headroom.js","js/jQuery.headroom.js"],
+  "title" : "HeadroomJS Effect Generator",
+  "description" : "HeadroomJS Effect Generator help you to create awesome effect for HeadroomJs.",
+  "scripts":["js/headroom.js","js/jQuery.headroom.js"],
   "styles":["css/demo.css","css/headroom.css"],
   "GAID" : "UA-56218128-1"
 }

@@ -10,6 +10,8 @@
         var $random_run = $("#random");
         var headroom = null;
         var $header = $("#header");
+        var $upEffect = $("#upEffect");
+        var $downEffect = $("#downEffect");
         var css_content = '';
         var animate_in = {};
         var animate_out = {};
@@ -20,10 +22,9 @@
         request_css("css/animate_out.css", function(){
             process_css(animate_out, fill_effect_out);
         });
+
         $random_run.click(function(){
             event.preventDefault();
-            var $upEffect = $("#upEffect");
-            var $downEffect = $("#downEffect");
 
             var keys = Object.keys(animate_in);
             var random_in_effect = keys[ keys.length * Math.random() << 0];
@@ -42,8 +43,8 @@
             var offset = $("#offset").val();
             var toleranceUp = $("#toleranceUp").val();
             var toleranceDown = $("#toleranceDown").val();
-            var upEffect = $("#upEffect").val();
-            var downEffect = $("#downEffect").val();
+            var upEffect = $upEffect.val();
+            var downEffect = $downEffect.val();
 
             var options = {
                 offset: offset,
@@ -108,6 +109,7 @@
                 // you can get the value like this: myObject[propertyName]
             }
             $downEffect.html(options);
+            $random_run.trigger("click");
         }
         // css file : /*property_name:*/ .... /*:property_name*/
         function request_css(file_path,callback){
@@ -147,23 +149,27 @@
             }
         }
         function get_js(offset, up, down, pinned,unpinned ){
-            var js = '$("#header").headroom({\n' +
-                '   // vertical offset in px before element is first unpinned\n' +
-                '   offset : ' + offset + ',\n' +
-                '   // or you can specify tolerance individually for up/down scroll\n' +
-                '   tolerance : {\n' +
-                '       up : ' + up + ',\n' +
-                '       down : ' + down + '\n' +
-                '   },' +
-                '   classes : {' +
-                '       // when element is initialised\n' +
-                '       initial : "animated",\n' +
-            '           // when scrolling up\n' +
-                '       pinned : "' + pinned + '",\n' +
-                '       // when scrolling down\n' +
-                '       unpinned : "' + unpinned + '",\n' +
-                '   }\n' +
-                '});';
+            var js = '(function ($) {\n'+
+                '   $(function () {\n' +
+                '       $("#header").headroom({\n' +
+                '           // vertical offset in px before element is first unpinned\n' +
+                '           offset : ' + offset + ',\n' +
+                '           // or you can specify tolerance individually for up/down scroll\n' +
+                '           tolerance : {\n' +
+                '               up : ' + up + ',\n' +
+                '               down : ' + down + '\n' +
+                '           },' +
+                '           classes : {' +
+                '               // when element is initialised\n' +
+                '               initial : "animated",\n' +
+            '                   // when scrolling up\n' +
+                '               pinned : "' + pinned + '",\n' +
+                '               // when scrolling down\n' +
+                '               unpinned : "' + unpinned + '",\n' +
+                '           }\n' +
+                '       });\n' +
+                '   }); // end of document ready\n' +
+                '})(jQuery); // end of jQuery name space\n';
             return js;
         }
         function get_css(animate_arr, property){
