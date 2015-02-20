@@ -3,7 +3,7 @@
   "cs" : "http://laptrinh.senviet.org",
   "title" : "HeadroomJS Effect Generator",
   "description" : "HeadroomJS Effect Generator help you to create awesome effect for HeadroomJs.",
-  "scripts":["js/headroom.js","js/jQuery.headroom.js"],
+  "scripts":["js/Debouncer.js","js/headroom.js","js/jQuery.headroom.js"],
   "styles":["css/demo.css","css/headroom.css"],
   "GAID" : "UA-56218128-1"
 }
