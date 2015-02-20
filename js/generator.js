@@ -16,7 +16,7 @@
         var css_content = '';
         var animate_in = {};
         var animate_out = {};
-
+        var is_first_run = true;
         request_css("css/animate_in.css", function(){
             process_css(animate_in, fill_effect_in);
         });
@@ -194,8 +194,16 @@
             return css;
         }
         function show_lazy_section(){
+            if(!is_first_run){
+                return;
+            }
+
             $("#code-section").show();
             $("#video-section").show();
+            $(".social-share").show();
+            $("#make_section").removeClass("s6 offset-s3 center");
+            $("#make_section").addClass("s8");
+            $("#feature_section").show();
         }
     }); // end of document ready
 })(jQuery); // end of jQuery name space

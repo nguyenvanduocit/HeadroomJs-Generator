@@ -54,9 +54,10 @@
 </form><p>Or an issue to nvduoc@senviet.org</p>
             </div>
         </div>
+        <div class="divider"></div>
         <div class="row">
-            <div class="col s8">
-                <h3 class="header" style="margin: -0.54rem 0 2.168rem 0">Make your HeadroomJs</h3>
+            <div id="make_section" class="col s6 offset-s3 center">
+                <h3 class="header" style="margin-bottom:2.168rem">Make your HeadroomJs</h3>
                 <form id="demo_form">
                     <div class="row">
                         <div class="input-field col s4">
@@ -87,14 +88,14 @@
                     <button class="btn waves-effect waves-light" type="submit" name="action">Run demo</button>
                     <button  class="btn waves-effect waves-light deep-orange tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random animate</button>
                 </form>
-                <div class="social-share">
+                <div class="social-share" style="display:none;">
                     <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                     <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
                     <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
                 </div>
             </div>
-            <div class="col s4">
-                <h4 class="blue-grey-text light" style="margin:0 0 2.168rem 0">Featured animates</h4>
+            <div id="feature_section" class="col s4" style="display: none">
+                <h4 class="blue-grey-text light" style="margin-bottom:2.168rem">Featured animates</h4>
                 <div class="collection">
                     <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
                     <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
