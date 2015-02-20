@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div id="feature_section" class="col s4" style="display: none">
-                <h4 class="blue-grey-text light" style="margin-bottom:2.168rem">Featured animates</h4>
+                <h4 class="blue-grey-text light" style="margin-top: 34px; margin-bottom: 2rem;">Featured animates</h4>
                 <div class="collection">
                     <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
                     <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
