@@ -43,8 +43,8 @@
             var offset = $("#offset").val();
             var toleranceUp = $("#toleranceUp").val();
             var toleranceDown = $("#toleranceDown").val();
-            var upEffect = $upEffectSelect.val();
-            var downEffect = $downEffectSelect.val();
+            var upEffect = $upEffectSelect.val().trim();
+            var downEffect = $downEffectSelect.val().trim();
 
             var options = {
                 offset: offset,

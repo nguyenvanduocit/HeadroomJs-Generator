@@ -8,7 +8,7 @@
     animation-duration: .60s !important;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition: all 1s cubic-bezier(1.000, 0.000, 0.000, 1.000);
 }
 .headroom--unpinned {
     top: -80px;

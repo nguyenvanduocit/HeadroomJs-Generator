@@ -7,7 +7,7 @@
 ?>
 <script src="js/generator.js"></script>
 <style id="animation_style"></style>
-<nav id="header" class="teal lighten-1 tooltipped animated" data-position="bottom" data-tooltip="This is a sample nav bar">
+<nav id="header" class="teal lighten-1 animated">
     <div class="nav-wrapper">
         <div class="col s12">
             <a style="margin-left: 50px" href="/" class="brand-logo">SEN VIỆT</a>
