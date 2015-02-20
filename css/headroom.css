@@ -4,11 +4,13 @@
     top: 0;
     left: 0;
     right: 0;
-    -webkit-animation-duration: .60s !important;
-    animation-duration: .60s !important;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    transition: all 1s cubic-bezier(1.000, 0.000, 0.000, 1.000);
 }
 .headroom--unpinned {
     top: -80px;

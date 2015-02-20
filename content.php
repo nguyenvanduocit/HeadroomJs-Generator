@@ -39,7 +39,6 @@
     </div>
     <div class="container main-content section ">
         <div class="row">
-            <h2 class="header">Option form</h2>
             <p>Modify the form below, then click run to see live action. If you like this, copy the script to your site.</p><br/>
             <div class="row">
                 <div class="col s8">

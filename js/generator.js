@@ -29,12 +29,10 @@
             var keys = Object.keys(animate_in);
             var random_in_effect = keys[ keys.length * Math.random() << 0];
             $upEffectSelect.val(random_in_effect);
-            $upEffectSelect.trigger('click');
 
             keys = Object.keys(animate_out);
             var random_out_effect = keys[ keys.length * Math.random() << 0];
             $downEffectSelect.val(random_out_effect);
-            $downEffectSelect.trigger('click');
 
             $demo_field.trigger("submit");
         });
@@ -109,7 +107,6 @@
                 // you can get the value like this: myObject[propertyName]
             }
             $downEffect.html(options);
-            $random_run.trigger("click");
         }
         // css file : /*property_name:*/ .... /*:property_name*/
         function request_css(file_path,callback){
