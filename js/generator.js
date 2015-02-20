@@ -7,6 +7,7 @@
     $(function () {
 
         var $demo_field = $("#demo_form");
+        var $feature_aminate_sets = $(".featured_effect");
         var $random_run = $("#random");
         var headroom = null;
         var $header = $("#header");
@@ -87,6 +88,21 @@
                 headroom.init();
             });
             toast('Success ! Try scroll up and down.', 2000);
+        });
+        $feature_aminate_sets.click(function(event){
+            event.preventDefault();
+
+            var upeffect = $(this).data("upeffect");
+            var downeffect = $(this).data("downeffect");
+            if(animate_in[upeffect] != undefined) {
+                $upEffectSelect.val(upeffect);
+            }
+            if(animate_out[downeffect] != undefined) {
+                $downEffectSelect.val(downeffect);
+            }
+
+            $demo_field.trigger("submit");
+
         });
         function fill_effect_in(){
             var $upEffect = $("#upEffect");

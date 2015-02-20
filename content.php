@@ -7,14 +7,16 @@
 ?>
 <script src="js/generator.js"></script>
 <style id="animation_style"></style>
+
 <nav id="header" class="teal lighten-1 animated">
     <div class="nav-wrapper">
         <div class="col s12">
             <a style="margin-left: 50px" href="/" class="brand-logo">SEN VIỆT</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html"><i class="mdi-action-search"></i></a></li>
-                <li><a href="components.html"><i class="mdi-action-view-module"></i></a></li>
-                <li><a href="javascript.html"><i class="mdi-navigation-refresh"></i></a></li>
+                <li><a href="http://wordpresskite.com">WordPress Dev</i></a></li>
+                <li><a href="http://laptrinh.senviet.org">Dev tut</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
                 <li><a href="mobile.html"><i class="mdi-navigation-more-vert"></i></a></li>
             </ul>
         </div>
@@ -26,7 +28,7 @@
             <h1 class="header center">HeadroomJS Effect Generator</h1>
 
             <div class='row center'>
-                <h4 class="header col s12 light center">The effect generator for for HeadroomJS.</h4>
+                <h4 class="header col s12 light center">The animate generator for for HeadroomJS.</h4>
             </div>
         </div>
         <div class="github-commit">
@@ -43,6 +45,7 @@
             <div class="row">
                 <div class="col s6">
                     <div class="row">
+                        <h3 class="header">Custom your animate</h3>
                         <div class="col s12">
                             <button  class="btn waves-effect waves-light tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random effect<i class="mdi-image-blur-on right"></i></button>
                         </div>
@@ -80,8 +83,14 @@
                     </form>
                 </div>
                 <div class="col s6">
+                    <h3 class="header">Featured animatie set</h3>
                     <div class="collection">
-                        <a class="collection-item" href="https://raw.githubusercontent.com/WickyNilliams/headroom.js/v0.7.0/dist/headroom.min.js">headroom.min.js</a>
+                        <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
+                        <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
+                        <a class="collection-item featured_effect" data-upeffect="fadeInDown" data-downeffect="fadeOutUp" href="#">fadeInDown - fadeOutUp</a>
+                        <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="fadeOutUp" href="#">boingInUp - fadeOutUp</a>
+                        <a class="collection-item featured_effect" data-upeffect="rubberBand" data-downeffect="fadeOutUp" href="#">rubberBand - fadeOutUp</a>
+                        <a class="collection-item featured_effect" data-upeffect="wobble" data-downeffect="slideOutUp" href="#">wobble - slideOutUp</a>
                     </div>
                 </div>
             </div>
