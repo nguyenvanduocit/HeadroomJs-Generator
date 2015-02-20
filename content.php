@@ -56,7 +56,7 @@
         </div>
         <div class="row">
             <div class="col s7">
-                <h3 class="header">Custom your animate</h3>
+                <h3 class="header">Make your HeadroomJs</h3>
                 <form id="demo_form">
                     <div class="row">
                         <div class="input-field col s12">
@@ -91,7 +91,7 @@
                 </form>
             </div>
             <div class="col s5">
-                <h4 class="blue-grey-text light" style="margin-top: 2rem">Featured animatie set</h4>
+                <h4 class="blue-grey-text light" style="margin-top: 2rem">Featured animate sets</h4>
                 <div class="collection">
                     <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
                     <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
@@ -104,7 +104,7 @@
                     <div class="fb-like" data-href="https://www.facebook.com/senviet.laptrinh" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                     <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                     <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
-                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-theme="dark" data-count="default"></div>
+                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
                 </div>
             </div>
         </div>
