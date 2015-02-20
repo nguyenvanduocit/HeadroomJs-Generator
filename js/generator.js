@@ -88,7 +88,7 @@
                 headroom.init();
             });
             show_lazy_section();
-            toast('Success ! Try scroll up and down.', 2000);
+            toast('Success ! Try scroll up and down.', 3000);
         });
         $feature_aminate_sets.click(function(event){
             event.preventDefault();
