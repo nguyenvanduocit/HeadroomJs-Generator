@@ -104,6 +104,7 @@
                     <div class="fb-like" data-href="https://www.facebook.com/senviet.laptrinh" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                     <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                     <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
+                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-theme="dark" data-count="default"></div>
                 </div>
             </div>
         </div>
@@ -166,8 +167,7 @@
                     phía dưới.</p>
             </div>
             <div class="row center">
-                <a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt"
-                   class="btn-large waves-effect waves-light red darken-1 rubberBandAnimate infiniteAnimate animateEl">Subscribe</a>
+                <a href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt" class="btn-large waves-effect waves-light red darken-1 rubberBandAnimate infiniteAnimate animateEl">Subscribe</a>
             </div>
             <div class="row" id="youtube-container"></div>
         </div>
