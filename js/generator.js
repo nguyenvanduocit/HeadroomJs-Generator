@@ -60,9 +60,7 @@
                     unpinned: downEffect
                 }
             };
-            if(headroom!=null){
-                headroom.destroy();
-            }
+
             var css =get_css(animate_in,upEffect) + "\n" + get_css(animate_out, downEffect);
             var default_css = '.animated {\n' +
                 '    position: fixed;\n' +
@@ -78,6 +76,9 @@
             $(".css-code").html("&lt;style&gt;\n" +default_css+ css + "\n&lt;/style&gt;");
             $("#animation_style").html(css);
             Prism.highlightAll();
+            if(headroom!=null){
+                headroom.destroy();
+            }
             $header.each(function(){
                 headroom = new Headroom(this, options);
                 headroom.init();
