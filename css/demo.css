@@ -82,6 +82,9 @@ nav .brand-logo{
     font-size: .95rem;
     font-weight: 400;
 }
+.social-share{
+    display: inline-block;
+}
 .plusone-wrap{
     display: inline-block;
 }

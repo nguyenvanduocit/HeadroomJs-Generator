@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s6">
+            <div class="col s7">
                 <h3 class="header">Custom your animate</h3>
                 <form id="demo_form">
                     <div class="row">
@@ -89,23 +89,21 @@
                     <button class="btn waves-effect waves-light" type="submit" name="action">Run</button>
                     <button  class="btn waves-effect waves-light deep-orange tooltipped" id="random" data-position="top" data-tooltip="Click me to get random animate">Random animate</button>
                 </form>
-                <div class="social-share">
-                    <div class="fb-like" data-href="https://www.facebook.com/senviet.laptrinh" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                    <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                    <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
-                </div>
             </div>
-            <div class="col s6">
-                <h4 class="blue-grey-text light">Featured animatie set</h4>
+            <div class="col s5">
+                <h4 class="blue-grey-text light" style="margin-top: 2rem">Featured animatie set</h4>
                 <div class="collection">
                     <a class="collection-item featured_effect" data-upeffect="rollIn" data-downeffect="rollOut" href="#">rollIn - rollOut</a>
                     <a class="collection-item featured_effect" data-upeffect="flipInTopBack" data-downeffect="flipOutTopBack" href="#">flipInTopBack - flipOutTopBack</a>
                     <a class="collection-item featured_effect" data-upeffect="fadeInDown" data-downeffect="fadeOutUp" href="#">fadeInDown - fadeOutUp</a>
                     <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="flipOutTopBack" href="#">boingInUp - flipOutTopBack</a>
                     <a class="collection-item featured_effect" data-upeffect="boingInUp" data-downeffect="fadeOutUp" href="#">boingInUp - fadeOutUp</a>
-                    <a class="collection-item featured_effect" data-upeffect="rotateInDown" data-downeffect="rotateDown" href="#">rotateInDown - rotateDown</a>
                     <a class="collection-item featured_effect" data-upeffect="rubberBand" data-downeffect="fadeOutUp" href="#">rubberBand - fadeOutUp</a>
-                    <a class="collection-item featured_effect" data-upeffect="wobble" data-downeffect="slideOutUp" href="#">wobble - slideOutUp</a>
+                </div>
+                <div class="social-share">
+                    <div class="fb-like" data-href="https://www.facebook.com/senviet.laptrinh" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                    <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                    <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
                 </div>
             </div>
         </div>
