@@ -8,16 +8,11 @@
 <footer class="page-footer">
     <div class="container">
         <div class="row">
-            <div class="col l4 s12">
+            <div class="col s10">
                 <h5 class="white-text">Bản quyền</h5>
-
-                <p class="grey-text text-lighten-4">Đây là một sản phẩm của Sen Việt, được phát hành dưới chuẩn giấy phép MIT. Mọi sự vi phạm nội dung giấy phép này đều không được chấp nhận.</p>
+                <p class="grey-text text-lighten-4">Đây là dự án mã nguồn mở, phát hành dưới giấy phép MIT kèm theo giấy phép của các thư viện mà project sử dụng. Các thư viện sử dụng là <a href="http://wicky.nillia.ms/headroom.js/">headroomJs</a>, <a href="http://materializecss.com/">MaterialCSS</a>, <a href="http://daneden.github.io/animate.css/">Animate.CSS</a>, <a href="https://github.com/joemottershaw/animations">Animations</a>, <a href="https://github.com/miniMAC/magic/">Magic.CSS</a> và các thư viện khác được sử dụng bởi các thư viện này cũng như các thư viện thông dụng khác như jQuery...</p>
             </div>
-            <div class="col l4 s12">
-                <h5 class="white-text">Thư viện</h5>
-                <p class="grey-text text-lighten-4">Website cũng sử dụng nhiều thư viện của bên thứ ba, các thư viện này cũng được phát hành dưới chuẩn giấy phép mã nguồn mở, khi sử dụng lại các thư viện này, yêu cầu thực hiện theo quy định bản quyền của các bên thư ba này.</p>
-            </div>
-            <div class="col l4 s12" style="overflow: hidden;">
+            <div class="col s2" style="overflow: hidden;">
                 <h5 class="white-text">Liên kết</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-4" href="http://laptrinh.senviet.org">Lập Trình Sen Việt</a></li>
