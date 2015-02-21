@@ -8,7 +8,7 @@
 <footer class="page-footer">
     <div class="container">
         <div class="row">
-            <div class="col s10">
+            <div class="col s7">
                 <h5 class="white-text">Bản quyền</h5>
                 <p class="grey-text text-lighten-4">Đây là dự án mã nguồn mở, phát hành dưới giấy phép MIT kèm theo giấy phép của các thư viện mà project sử dụng. Các thư viện sử dụng là <a href="http://wicky.nillia.ms/headroom.js/">headroomJs</a>, <a href="http://materializecss.com/">MaterialCSS</a>, <a href="http://daneden.github.io/animate.css/">Animate.CSS</a>, <a href="https://github.com/joemottershaw/animations">Animations</a>, <a href="https://github.com/miniMAC/magic/">Magic.CSS</a> và các thư viện khác được sử dụng bởi các thư viện này cũng như các thư viện thông dụng khác như jQuery...</p>
             </div>
@@ -21,6 +21,13 @@
                     <li><a class="grey-text text-lighten-4" href="http://www.youtube.com/subscription_center?add_user=videohuongdanlt">Youtube Chanel</a></li>
                     <li><a class="grey-text text-lighten-4" href="https://www.facebook.com/senviet.laptrinh">Facebook page</a></li>
                 </ul>
+            </div>
+            <div class="col s3" style="overflow: hidden;">
+                <div class="social-share" style="margin-top: 30px">
+                    <div class="fb-like" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                    <div class="plusone-wrap"><div class="g-plusone" data-size="tall"></div></div>
+                    <div class="g-ytsubscribe" data-channel="videohuongdanlt" data-layout="full" data-count="default"></div>
+                </div>
             </div>
         </div>
     </div>
