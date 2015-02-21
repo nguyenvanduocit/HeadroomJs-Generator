@@ -5,5 +5,5 @@
   "description" : "HeadroomJS Effect Generator help you to create awesome effect for HeadroomJs.",
   "scripts":["js/Debouncer.js","js/headroom.js","js/jQuery.headroom.js"],
   "styles":["css/demo.css","css/headroom.css"],
-  "GAID" : "UA-56218128-1"
+  "GAID" : "UA-52973734-5"
 }
